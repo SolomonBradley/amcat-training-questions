@@ -1,5 +1,7 @@
 #include<stdio.h>
 
+//TJIS PROGRAM IS NOT COMPLETE
+
 void push(int a,int b)
 {
     
@@ -30,9 +32,17 @@ int main(int argc, char const *argv[])
         {
             for(j=0;j<4;j++)
             {
-                if(a[i][j] == 9)
+                one:if(a[i][j] == 1 && j<4 && i<4)
                 {
-                    printf("\n%d %d\n",i,j);
+                    j=j+1;
+                    if(a[i][j] == 1 && j<4 && i<4) 
+                        {
+                            
+                        }
+                        else
+                        {
+                            
+                        }
                 }
             }
         }
